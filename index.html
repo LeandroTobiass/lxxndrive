@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LxxnDrive</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 class="logo">LxxnDrive</h1>
+            <div class="search-container">
+                <input type="search" placeholder="Buscar..." id="search">
+            </div>
+        </header>
+
+        <div class="content">
+            <nav class="sidebar">
+                <ul>
+                    <li class="active"><a href="#juegos">Juegos</a></li>
+                    <li><a href="#programas">Programas</a></li>
+                </ul>
+            </nav>
+
+            <main class="main-content">
+                <section id="juegos" class="category">
+                    <h2>Juegos</h2>
+                    <div class="grid">
+                        <!-- Los juegos se cargarán dinámicamente aquí -->
+                    </div>
+                </section>
+
+                <section id="programas" class="category hidden">
+                    <h2>Programas</h2>
+                    <div class="grid">
+                        <!-- Los programas se cargarán dinámicamente aquí -->
+                    </div>
+                </section>
+            </main>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+{
+  "juegos": [
+    {
+      "titulo": "Rust",
+      "imagen": "https://i.postimg.cc/dV3Ww5sS/rust.png",
+      "descargas": {
+        "mediafire": "https://www.mediafire.com/file/yod42pq60kotxvu/Rust_Viciados_v2275_By_SidneyYT.rar/file"
+      }
+    },
+    {
+      "titulo": "Kovaaks",
+      "imagen": "https://i.postimg.cc/13dvtD4R/kovaaks.png",
+      "descargas": {
+        "mediafire": "https://www.mediafire.com/file/6tgx5t7nyvgy0il/KovaaKs+Aim+Trainer+2.8.rar"
+      }
+    },
+    {
+      "titulo": "Age of Empires II",
+      "imagen": "https://i.postimg.cc/Xq3bzR0P/aoe2.png",
+      "descargas":{
+        "drive":"https://drive.google.com/file/d/1CDqcPplmbQBaqiTYL0WnFpbyy0-psbRo/view?usp=drive_link"
+      }
+    }
+  ],
+  "programas": [
+    {
+      "titulo": "FL Studio 20",
+      "imagen": "https://i.postimg.cc/VLYGHY3w/fl.png",
+      "descargas": {
+        "mediafire": "https://www.mediafire.com/file/emu9rc81lg4t2er/FL_Studio_20.8.4.2576_Win7-10_By_Umbrella_UR-31.rar/file"
+      }
+    },
+    {
+      "titulo": "PhotoshopCS6",
+      "imagen": "https://i.postimg.cc/mD74VbKM/ps.png",
+      "descargas": {
+        "drive": "https://drive.google.com/file/d/1TPFPj1jng-ZiJ0E9-hpan4f4ezs5tXUC/view"
+      }
+    }
+  ]
+}

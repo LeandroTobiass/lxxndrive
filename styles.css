@@ -1,0 +1,159 @@
+:root {
+    --primary: #00b3b3;
+    --background: #1a1a1a;
+    --card-bg: #2a2a2a;
+    --text: #ffffff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--background);
+    color: var(--text);
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0;
+    margin-bottom: 2rem;
+}
+
+.logo {
+    color: var(--primary);
+    font-size: 1.5rem;
+}
+
+.search-container input {
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    border: none;
+    background: var(--card-bg);
+    color: var(--text);
+    width: 300px;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    gap: 2rem;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar li {
+    margin-bottom: 0.5rem;
+}
+
+.sidebar a {
+    color: var(--text);
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    display: block;
+    border-radius: 5px;
+}
+
+.sidebar li.active a,
+.sidebar a:hover {
+    background-color: var(--primary);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1rem;
+}
+
+.card {
+    background: var(--card-bg);
+    border-radius: 10px;
+    padding: 1rem;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+.card h3 {
+    margin-bottom: 1rem;
+}
+
+.downloads {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    justify-content: center;
+}
+
+.download-btn {
+    background: var(--primary);
+    color: var(--text);
+    text-decoration: none;
+    padding: 0.5rem;
+    border-radius: 5px;
+    text-align: center;
+    transition: opacity 0.2s;
+    flex: 1 0 calc(50% - 0.25rem); /* Ajusta esto según cuántos botones quieras por fila */
+    font-size: 0.9rem; /* Reduce el tamaño de la fuente si es necesario */
+}
+
+.download-btn:hover {
+    opacity: 0.8;
+}
+
+.hidden {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .content {
+        grid-template-columns: 1fr;
+    }
+
+    .sidebar {
+        margin-bottom: 1rem;
+    }
+
+    .sidebar ul {
+        display: flex;
+        gap: 1rem;
+    }
+
+    .search-container input {
+        width: 200px;
+    }
+}
+
+@media (max-width: 480px) {
+    .search-container input {
+        width: 150px;
+    }
+    
+    .grid {
+        grid-template-columns: 1fr;
+    }
+}
