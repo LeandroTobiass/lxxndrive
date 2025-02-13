@@ -22,6 +22,13 @@
       }
     },
     {
+      "titulo":"Pico Park",
+      "imagen":"https://i.postimg.cc/0NYxtcJr/picopark1.png",
+      "descargas":{
+        "mediafire":"https://www.mediafire.com/file/wtzu9clya0jb3i9/P1c0P4rk_ONLINE.v09.09.21.rar/file"
+      }
+    },
+    {
       "titulo":"Pico Park 2",
       "imagen": "https://i.postimg.cc/qRKKZfxy/picopark2.png",
       "descargas":{
@@ -42,6 +49,13 @@
       "imagen": "https://i.postimg.cc/mD74VbKM/ps.png",
       "descargas": {
         "drive": "https://drive.google.com/file/d/1TPFPj1jng-ZiJ0E9-hpan4f4ezs5tXUC/view"
+      }
+    },
+    {
+      "titulo":"Microsoft office 2016 64 Bits con licencia",
+      "imagen":"https://i.postimg.cc/Z5qVsRBN/MICROSOFT-OFFICE-PROFESSIONAL-2016-64-BITS-CON-LICENCIA.png",
+      "descargas":{
+        "mega":"https://mega.nz/file/CdBxSbLS#614g-IPqmXHKsbizJE4TIxpI2vKNbOwDKKpjDaBPWR4"
       }
     }
   ]
