@@ -117,8 +117,8 @@ header {
     border-radius: 5px;
     text-align: center;
     transition: opacity 0.2s;
-    flex: 1 0 calc(50% - 0.25rem); /* Ajusta esto según cuántos botones quieras por fila */
-    font-size: 0.9rem; /* Reduce el tamaño de la fuente si es necesario */
+    flex: 1 0 calc(50% - 0.25rem); 
+    font-size: 0.9rem; 
 }
 
 .download-btn:hover {
